@@ -271,3 +271,19 @@ footer strong{color:var(--text);font-family:Orbitron}
   .nsu-card{padding:32px 22px}
   footer{flex-direction:column}
 }
+
+
+/* Nyx artwork */
+.nyx-art {
+  overflow: hidden;
+  display: block;
+  background: #0a090d;
+}
+.nyx-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  display: block;
+  filter: saturate(1.04) contrast(1.02);
+}
